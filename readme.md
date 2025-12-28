@@ -2,6 +2,8 @@
 
 A state-of-the-art Retrieval-Augmented Generation (RAG) system with conversational memory, multi-format document support, and enterprise-level features.
 
+**Check the site**: https://retrieval-augmented-generation-7yfyadagf2t53xbkjrhm3q.streamlit.app/
+
 ## ✨ Features
 
 - **🧠 Conversational Memory**: Maintains context across multiple questions
