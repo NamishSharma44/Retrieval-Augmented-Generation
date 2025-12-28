@@ -1,4 +1,4 @@
-# 🚀 Production-Grade RAG Document QA System
+# 🚀 RAG Document QA System
 
 A state-of-the-art Retrieval-Augmented Generation (RAG) system with conversational memory, multi-format document support, and enterprise-level features.
 
@@ -83,7 +83,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 **Example .env file:**
 ```env
-GOOGLE_API_KEY=AIzaSyD...your_key_here
+GOOGLE_API_KEY=...your_key_here
 LLM_PROVIDER=google
 GOOGLE_MODEL=gemini-2.0-flash-exp
 CHUNK_SIZE=1000
@@ -97,7 +97,7 @@ MEMORY_K=5
 streamlit run app.py
 ```
 
-The app will open in your browser at `http://localhost:8501`
+
 
 ## 📖 How to Use
 
@@ -105,7 +105,7 @@ The app will open in your browser at `http://localhost:8501`
 1. Go to the **📤 Upload** tab
 2. Click "Choose files" and select your documents (PDF, Word, or Text)
 3. Click **🚀 Process Documents**
-4. Wait for processing to complete (1-3 minutes)
+4. Wait for processing to complete (20-30 Seconds)
 
 ### Step 2: Ask Questions
 1. Go to the **💬 Chat** tab
@@ -268,9 +268,6 @@ Contributions are welcome! Areas for improvement:
 - UI enhancements
 - Performance optimizations
 
-## 📄 License
-
-MIT License - Feel free to use for personal or commercial projects
 
 ## 🙏 Acknowledgments
 
@@ -282,14 +279,3 @@ Built with:
 - [Streamlit](https://streamlit.io/)
 - [HuggingFace](https://huggingface.co/)
 
-## 📧 Support
-
-For issues or questions:
-1. Check the troubleshooting section
-2. Review the logs in the console
-3. Check API key configuration
-4. Ensure all dependencies are installed
-
----
-
-**Made with ❤️ for the AI community**
