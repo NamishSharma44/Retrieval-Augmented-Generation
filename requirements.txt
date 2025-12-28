@@ -1,0 +1,27 @@
+# Core LangChain Dependencies - Latest Stable Versions
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-core>=0.3.0
+langchain-google-genai>=2.0.0
+langchain-openai>=0.2.0
+langchain-huggingface>=0.1.0
+
+# Vector Store & Embeddings
+chromadb>=0.4.22
+sentence-transformers>=2.3.1
+
+# Document Processing
+pypdf>=3.17.0
+python-docx>=1.1.0
+docx2txt>=0.8
+
+# Web Interface
+streamlit>=1.31.0
+
+# Utilities
+python-dotenv>=1.0.0
+tiktoken>=0.5.0
+
+# Optional: Better performance
+torch>=2.0.0
+transformers>=4.30.0
